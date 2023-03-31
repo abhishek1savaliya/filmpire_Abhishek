@@ -1,6 +1,5 @@
 import { configureStore } from "@reduxjs/toolkit";
 import {tmdbApi} from '../services/TMDB'
-console.log(tmdbApi)
 
 export default configureStore({
       reducer:{

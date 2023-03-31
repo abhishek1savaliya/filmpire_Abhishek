@@ -1,11 +1,3 @@
-import React from 'react';
-<<<<<<< HEAD
-
-const App = () => (
-  <div>
-  App</div>
-);
-=======
 import { CssBaseline } from '@mui/material';
 import {Routes, Route } from 'react-router-dom';
 import useStyles from './styles'
@@ -28,10 +20,7 @@ const App = () =>{
       <Route exact path='/profile/:id' element={<Profile />}></Route>
       </Routes>
       </main>
-  
     </div>
   );
-
 } 
->>>>>>> 1a4e742 (Devloping)
 export default App;

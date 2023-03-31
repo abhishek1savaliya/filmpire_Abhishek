@@ -4,6 +4,28 @@ export default makeStyles((theme)=>({
     movie:{
         padding:'12px',
     },
+    image:{
+     borderRadius:'20px',
+     height:'300px',
+     marginBottom:'10px',
+     '&:hover':{
+         transform:'scale(1.05)'
+    }
+
+    },
+    links:{
+        alignItems:'center',
+        fontweight:'bloder',
+        textDecoration:'none',
+        [theme.breakpoints.up('xs')]:{
+            display:'flex',
+            flexDirection:'column'
+        },
+        '&:hover':{
+            cursor:'pointer',
+            textDecoration:'none',
+        }
+    },
     title:{
         color:'theme.palette.text.primary',
         textOverflow:'ellipsis',
